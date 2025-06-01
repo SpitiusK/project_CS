@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|c:\\users\\user\\desktop\\project \u0441#\\fractals\\dragonfractaltask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|solutionrelative:dragonfractaltask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|c:\\users\\user\\desktop\\project \u0441#\\fractals\\ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|solutionrelative:ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|c:\\users\\user\\desktop\\project \u0441#\\fractals\\pixels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|solutionrelative:pixels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|c:\\users\\user\\desktop\\project \u0441#\\fractals\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|c:\\users\\user\\desktop\\project \u0441#\\fractals\\ui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4F6FA0-75CB-9806-E9E1-0E74DB4775B0}|Fractals.csproj|solutionrelative:ui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T07:12:24.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\App.axaml.cs",
+              "RelativeDocumentMoniker": "UI\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\App.axaml.cs",
+              "RelativeToolTip": "UI\\App.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:16:29.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\UI\\MainWindow.axaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.axaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:16:27.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DragonFractalTask.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\DragonFractalTask.cs",
+              "RelativeDocumentMoniker": "DragonFractalTask.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\DragonFractalTask.cs",
+              "RelativeToolTip": "DragonFractalTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:46:51.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pixels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\Pixels.cs",
+              "RelativeDocumentMoniker": "Pixels.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project \u0421#\\Fractals\\Pixels.cs",
+              "RelativeToolTip": "Pixels.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:40:39.063Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

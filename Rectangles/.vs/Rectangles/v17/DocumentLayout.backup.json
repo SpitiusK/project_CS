@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Rectangles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|c:\\users\\user\\desktop\\rectangles\\rectanglestask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|solutionrelative:rectanglestask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|c:\\users\\user\\desktop\\rectangles\\testcases\\testcaseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|solutionrelative:testcases\\testcaseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|c:\\users\\user\\desktop\\rectangles\\testcases\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1B48E5-5BA5-4C86-87D2-5D26800853E2}|Rectangles.csproj|solutionrelative:testcases\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCaseUI.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Rectangles\\TestCases\\TestCaseUI.cs",
+              "RelativeDocumentMoniker": "TestCases\\TestCaseUI.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Rectangles\\TestCases\\TestCaseUI.cs",
+              "RelativeToolTip": "TestCases\\TestCaseUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:20:07.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestCase.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Rectangles\\TestCases\\TestCase.cs",
+              "RelativeDocumentMoniker": "TestCases\\TestCase.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Rectangles\\TestCases\\TestCase.cs",
+              "RelativeToolTip": "TestCases\\TestCase.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:19:46.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RectanglesTask.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Rectangles\\RectanglesTask.cs",
+              "RelativeDocumentMoniker": "RectanglesTask.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Rectangles\\RectanglesTask.cs",
+              "RelativeToolTip": "RectanglesTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T08:25:22.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
