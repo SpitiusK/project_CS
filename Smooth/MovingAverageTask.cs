@@ -8,7 +8,7 @@ public static class MovingAverageTask
 	public static IEnumerable<DataPoint> MovingAverage(this IEnumerable<DataPoint> data, int windowWidth)
 	{
 		
-		var boundedQueue = new BoundedQueue(windowWidth);
+		var boundedQueue = new BoundedQueueDataPoint(windowWidth);
 		foreach (var dataPoint in data)
 		{
 			var currentDataPoint = dataPoint.WithAvgSmoothedY(dataPoint.OriginalY);
@@ -18,13 +18,13 @@ public static class MovingAverageTask
 	}
 }
 
-public class BoundedQueue
+public class BoundedQueueDataPoint
 {
 	private readonly Queue<DataPoint> _queue;
 	private readonly int _maxSize;
 	private double _currentSum;
 
-	public BoundedQueue(int maxSize)
+	public BoundedQueueDataPoint(int maxSize)
 	{
 		_maxSize = maxSize;
 		_queue = new Queue<DataPoint>();
