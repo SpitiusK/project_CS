@@ -59,7 +59,7 @@ public class MovingAverageTests
 	{
 		CheckAverage(100500, new double[] { 1, 2, 3, 4, 5, 6 }, new double[] { 1, 1.5, 2, 2.5, 3, 3.5 });
 	}
-
+	
 	private void CheckAverage(int windowWidth, double[] ys, double[] expectedYs)
 	{
 		var dataPoints = ys.Select((v, index) => new DataPoint(GetX(index), v));

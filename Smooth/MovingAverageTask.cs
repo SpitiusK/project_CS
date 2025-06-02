@@ -27,7 +27,7 @@ public class BoundedQueue
 	public BoundedQueue(int maxSize)
 	{
 		_maxSize = maxSize;
-		_queue = new Queue<DataPoint>(maxSize);
+		_queue = new Queue<DataPoint>();
 		_currentSum = 0;
 	}
 
