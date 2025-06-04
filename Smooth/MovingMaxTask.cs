@@ -16,29 +16,37 @@ public static class MovingMaxTask
 			boundedQueue.Add(currentDataPoint);
 			if (linkedListWithIndex.Count > 0)
 			{
-				
-				if (linkedListWithIndex.Last.Value.variableValue < currentDataPoint.OriginalY)
+				RemoveFirstIfIndexBigger(linkedListWithIndex, iterationNumber, windowWidth);
+				if (linkedListWithIndex.Count != 0 && linkedListWithIndex.First.Value.variableValue < currentDataPoint.OriginalY)
 				{
 					linkedListWithIndex.Clear();
 				}
+				RemoveAllLess(linkedListWithIndex, currentDataPoint.OriginalY);
 				linkedListWithIndex.AddLast((currentDataPoint.OriginalY, iterationNumber));
 			}
 			else
 			{
 				linkedListWithIndex.AddFirst((currentDataPoint.OriginalY, iterationNumber));
 			}
-			RemoveAllIfIndexBigger(linkedListWithIndex, iterationNumber);
+
 			yield return new DataPoint(currentDataPoint).WithMaxY(linkedListWithIndex.First.Value.variableValue);
 			iterationNumber++;
 		}
 	}
 
-	static void RemoveAllIfIndexBigger(LinkedList<(double variableValue, int index)> linkedListWithIndex, int iterationNumber)
+	static void RemoveFirstIfIndexBigger(LinkedList<(double variableValue, int index)> linkedListWithIndex, int iterationNumber, int windowWidth)
 	{
-		if (iterationNumber  - linkedListWithIndex.First.Value.index <= 0) return;
+		if (linkedListWithIndex.Count == 0 || iterationNumber  - linkedListWithIndex.First.Value.index < windowWidth) return;
 		
 		linkedListWithIndex.RemoveFirst();
-		RemoveAllIfIndexBigger(linkedListWithIndex, iterationNumber);
+		RemoveFirstIfIndexBigger(linkedListWithIndex, iterationNumber, windowWidth);
+	}
+
+	static void RemoveAllLess(LinkedList<(double variableValue, int index)> linkedListWithIndex, double currentY)
+	{
+		if (linkedListWithIndex.Count == 0 || linkedListWithIndex.Last.Value.variableValue > currentY) return;
+		linkedListWithIndex.RemoveLast();
+		RemoveAllLess(linkedListWithIndex, currentY);
 	}
 }
 
