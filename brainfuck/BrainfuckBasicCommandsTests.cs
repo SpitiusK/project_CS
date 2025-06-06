@@ -57,8 +57,10 @@ public class BrainfuckBasicCommandsTests
 	[Test]
 	public void ShiftOverflow()
 	{
-		Assert.AreEqual(2, Vm("<", 3).MemoryPointer);
-		Assert.AreEqual(0, Vm("<>", 3).MemoryPointer);
+		var newMemoryPointerValue = Vm("<", 3).MemoryPointer; 
+		Assert.AreEqual(2, newMemoryPointerValue);
+		newMemoryPointerValue = Vm("<>", 3).MemoryPointer;
+		Assert.AreEqual(0, newMemoryPointerValue);
 		Assert.AreEqual(0, Vm(">>>", 3).MemoryPointer);
 		Assert.AreEqual(1, Vm(">>>>", 3).MemoryPointer);
 		Assert.AreEqual("\x1", Run("<+."));
@@ -94,11 +96,12 @@ public class BrainfuckBasicCommandsTests
 	[Test]
 	public void Constants()
 	{
+		var result = Run(
+			"Q.W.E.R.T.Y.U.I.O.P.A.S.D.F.G.H.J.K.L.Z.X.C.V.B.N.M." +
+			"q.w.e.r.t.y.u.i.o.p.a.s.d.f.g.h.j.k.l.z.x.c.v.b.n.m." +
+			"1.2.3.4.5.6.7.8.9.0.");	
 		Assert.AreEqual("QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890",
-			Run(
-				"Q.W.E.R.T.Y.U.I.O.P.A.S.D.F.G.H.J.K.L.Z.X.C.V.B.N.M." +
-				"q.w.e.r.t.y.u.i.o.p.a.s.d.f.g.h.j.k.l.z.x.c.v.b.n.m." +
-				"1.2.3.4.5.6.7.8.9.0."));
+			result);
 	}
 
 	[Test]

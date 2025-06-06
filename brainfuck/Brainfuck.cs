@@ -22,4 +22,6 @@ public class Brainfuck
 		BrainfuckLoopCommands.RegisterTo(vm);
 		vm.Run();
 	}
+	
+	
 }
